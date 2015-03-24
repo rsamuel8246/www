@@ -1,0 +1,504 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@font-face {
+	font-family: futura;
+	src: url(futura.TTF);
+}
+svg{
+	max-height:50px;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size:50px;
+	max-height:100px;
+	float:left;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	color:#717274;
+	float:left;
+}
+#geral {
+	width: 100%
+}
+#menu-topo {
+	background-color: #0c7aaa;
+	float: left;
+	text-align: center;
+}
+/*#menu-topo p a {
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	transition: all 0.2s ease-in-out;
+	border-radius: 15px
+}
+#menu-topo p a:hover {
+	background-color: #13a5bb;
+	transition: all 0.2s ease-in-out
+}*/
+#capa {
+	background-color: #01acc6;
+	height: auto;
+	width: 100%;
+	background-image: url(../img/bg_topo.jpg);
+	background-size: cover;
+	padding: 10px 0 50px 0;
+	display: block;
+	position: relative;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+#logo{
+	margin:10px 0 0 120px;
+	text-align:center;
+	float:left;
+}
+
+.frase-topo{
+	margin:200px 0 0 120px;
+	font-size: 50px;
+	font-weight: bold;
+	color:#fff;
+	float: left;
+}
+
+
+#imagem-topo{
+	margin: 250px 0 0 50px;
+	float: left;
+}
+
+#redes{
+	float: left;
+	margin: 20px 0 0 0;
+	text-align: left;
+}
+
+
+#redes li{
+	float:left;
+	margin: 0 20px 0 0; 
+	
+
+}
+
+#redes li a{
+	opacity: 0.3;
+}
+
+
+#redes li a:hover{
+	float:left;
+	opacity: 1.0;
+	-webkit-transition: 0.3s ease-in;
+	-moz-transition: 0.3s ease-in;
+	-o-transition: 0.3s ease-in;
+	transition: 0.3s ease-in;
+}
+
+#thumbs {
+	margin: 20px 0 0 120px;
+	background-color: #ccc;
+}
+
+
+
+#galeria p{
+	margin:30px 0 0 60px;	
+}
+
+/* galleria JQUERY*/
+
+#galleria{
+	height:600px;			
+}
+
+.sub_gal{
+	color:#b9d8e1;
+	font-size:28px;
+	font-weight:bold;
+}
+
+.sub_gal2{
+	color:#fff;
+	font-size:28px;
+	font-weight:bold;
+}
+
+#slideshow{
+	margin:50px 100px;	
+	
+}
+
+#patrocinadores {
+	margin:30px 0 0 0;
+	padding: 0 0 0 80px;
+	float:left
+}
+
+#patrocinadores ul li{
+	float:left;
+	margin:30px 40px 50px 0;
+}
+
+#titulo {
+	width: 100%;
+	background-color: #ffffff;
+	font-size: 28px;
+	text-align: left;
+	float: left;
+	background-image: url(../images/bg_titulo.jpg);
+	background-repeat:no-repeat; background-size:cover;/*border-top:#fff 2px solid;*/
+}
+
+
+.titulo {
+	font-family: 'Open Sans', sans-serif;
+	color: #224380;
+	font-size: 38px;
+	font-weight:bold;
+	margin: 30px 0 50px  50px;
+	float: left;
+}
+.titulo2 {
+	color: #fff;
+	font-size: 35px;
+	font-weight:bold;
+	margin: 30px 0 0 50px;
+	float: left;
+}
+
+#titulo_int {
+		margin: 30px 0 50px  0;
+}
+
+.complementar {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin-bottom: 60px;
+}
+.img {
+	margin-top: 60px;
+}
+.img img {
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#branca{
+	position:relative;
+	background-image:url(../images/esqueleto.png);
+	background-repeat:no-repeat;
+}
+#comissao_int{
+	position:relative;
+	margin: 0 0 0 60px;
+	float:left;
+}
+
+#comissao_foto{
+	width:280px;
+	height:200px;
+	position:relative;
+	margin: 60px 0 0 310px;
+	float:left;
+}
+
+#comissao_foto ul li{
+	float:left;	
+	margin:0 0 5px 5px;
+}
+#pqusjt {
+	width: 100%;
+}
+
+#infografico{ 
+	background-color: #d63a63;
+	text-align: center;
+	background-image: url(../img/mosaico.png)
+}
+#projeto {
+	display: block;
+	margin:50px 0 ;
+	padding:0 0px 0 60px;
+	float:left;
+}
+
+#projeto p {
+	font-size: 14px;
+	margin:20px 0 0 0;
+	font-weight:bold;
+	color: #213568;
+}
+#projeto li {
+	font-size: 12px;
+}
+.p-pronatec {
+	position:relative;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	color: #213568;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	float:left;
+}
+
+.p-pronatec2 {
+	position:relative;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: #717274;
+	font-weight: bold;
+	margin:20px 0 50px -220px;
+	float:left;	
+}
+
+.texto {
+	font-size: 16px
+}
+#inscricao-rodape {
+	width: 100%;
+	background-color: #444545;
+	padding: 20px
+}
+.pre-inscricao-rodape {
+	font-size: 26px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+.pre-inscricao-rodape a {
+	text-decoration: none;
+	color: #fff
+}
+.pre-inscricao-rodape a:hover {
+	color: #D7D7D7
+}
+
+/*rodape*/
+.universidadesaojudas {
+	width: 100%;
+	padding: 100px 0 25px 0;
+	float: left;
+	background-image: url(../img/entrada.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.facebook a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/sociais.png);
+	background-position: 0 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	color: transparent;
+	float: left;
+}
+.facebook a:hover {
+	background-position: 0 50px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.twitter a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/sociais.png);
+	background-position: -45px 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	color: transparent;
+	float: left;
+}
+.twitter a:hover {
+	background-position: -45px 50px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.instagram a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/sociais.png);
+	background-position: -90px 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	color: transparent;
+	float: left;
+}
+.instagram a:hover {
+	background-position: -90px 50px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.youtube a {
+	display: inline-block;
+	width: 70px;
+	height: 40px;
+	background-image: url(../img/sociais.png);
+	background-position: -135px 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	color: transparent;
+	float: left;
+}
+.youtube a:hover {
+	background-position: -135px 50px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.blog a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/sociais.png);
+	background-position: -212px 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	color: transparent;
+	float: left;
+}
+.blog a:hover {
+	background-position: -212px 50px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.sociais {
+	text-align: center;
+	position: relative;
+	padding-left: 35px;
+}
+.sociais a {
+	margin: 5px 3px 14px 4px;
+}
+.sociais-footer {
+	margin-top: 30px;
+	position: relative;
+	width: 100%;
+}
+.sociais-footer ul {
+	display: block;
+	width: 300px;
+}
+.especificacoes {
+	margin-top: 30px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+ul {
+	list-style: none;
+}
+/*fim rodape*/
+
+
+/*lista*/
+.article ul {
+	cursor: pointer;
+	padding: 0
+}
+.article ul li {/*color:#005280;*/
+	color: #069;
+	display: none;
+	padding: 5px;
+}
+.article ul p {
+	margin: 0;
+	padding: 0
+}
+/*fim lista*/
+
+@media screen and (max-width: 600px) {
+
+.titulo {
+	margin: 30px 0 0px  0px;
+}
+.titulo2 {
+
+	margin: 30px 0 0px 0px;
+}
+
+#logo_usjt {
+	margin:50px 0 30px 60px;
+	text-align:center;
+	float:left;
+}
+
+#logo_baja{
+	max-width:50%;	
+}
+
+#equipe{
+	margin:200px 0 50px 60px;
+}
+
+#slideshow{
+	margin:0px 15px 0 15px;	
+	
+}
+
+#galleria{
+		min-width:100px;	
+		margin:30px 0 0 -40px;
+		max-height:400px;	
+	}
+	
+
+#galeira{text-align:center;}
+
+#comissao_int{
+	position:relative;
+	margin: 0 0 0 20px;
+	float:left;
+}
+
+#comissao_foto{
+	position:relative;
+	margin: 60px 0 0 20px;
+	float:left;
+}
+
+#patrocinadores {
+	margin:30px 250px 0 0;
+	padding: 0 0 0 0px;
+}
+
+#patrocinadores ul li{
+	position:relative;
+	float:left;
+	margin:30px 40px;
+}
+
+#patrocinadores h1 {
+	margin:0 0 0 60px;
+}
+
+#patrocinadores h3{
+	margin:0 0 0 60px;
+	}
+			
+			
+			
+}
